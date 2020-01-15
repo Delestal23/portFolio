@@ -1,0 +1,52 @@
+.section{
+    margin: 52px 0 52px 0;
+}
+
+.logo {
+    width: 350px;
+    height: 230px;
+    text-indent: -9999px;
+    background: url(../../../assets/logo.svg) 0 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+label.control-label {
+    display: none;
+}
+
+
+.input{
+    display: flex;
+    justify-content: center;
+}
+
+
+.input .login .username-required .control-group {
+    margin: 10px;
+    width: 350px;
+
+}
+
+
+.input .login .username-required .control-group .control-label{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: .075em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.input-block{
+    width: 350px;
+}
+
+#accountName::placeholder, #password::placeholder {
+    text-align: center;
+    padding-top: 30px;
+  }
